@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Harmless demo plugin: a slash command, a skill, and a subagent.",
+  "author": {
+    "name": "Barny Stewart"
+  },
+  "license": "MIT",
+  "keywords": ["demo", "example"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hook-logger",
+  "version": "0.1.0",
+  "description": "Logs hook events to a local file so you can observe what code a plugin runs and when.",
+  "author": {
+    "name": "Barny Stewart"
+  },
+  "license": "MIT",
+  "keywords": ["hooks", "audit", "security"]
+}

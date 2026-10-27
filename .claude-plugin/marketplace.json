@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "test-claude-marketplace",
+  "owner": {
+    "name": "Barny Stewart"
+  },
+  "metadata": {
+    "description": "A minimal test marketplace for demonstrating external marketplace installation and auditing plugin behaviour.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./plugins/hello-world",
+      "description": "Harmless demo plugin: a slash command, a skill, and a subagent.",
+      "version": "0.1.0",
+      "category": "demo",
+      "keywords": ["demo", "example"]
+    },
+    {
+      "name": "hook-logger",
+      "source": "./plugins/hook-logger",
+      "description": "Logs hook events to a local file so you can observe what code a plugin runs and when.",
+      "version": "0.1.0",
+      "category": "security-testing",
+      "keywords": ["hooks", "audit", "security"]
+    }
+  ]
+}
